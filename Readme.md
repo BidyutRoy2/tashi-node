@@ -78,7 +78,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/BidyutRoy2/idx-vps/refs/head
 ### Now Follow Step
 
 ```
-sudo apt update && sudo apt install curl
+sudo apt update && sudo apt install wget curl
 ```
 
 ```
