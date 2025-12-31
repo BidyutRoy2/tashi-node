@@ -99,3 +99,12 @@ sudo ufw allow 9000/tcp
 ```
 
 ## How to Install Multiple Node in Single Device Check Video In Our Telegram Channel
+
+```
+docker run --rm -it --volume tashi-depin-worker-0:/home/worker/auth --platform linux/amd64 ghcr.io/tashigg/tashi-depin-worker:0 interactive-setup /home/worker/auth
+```
+```
+docker run --restart always -p 9011:9000 -p 39066:39065 -d --volume tashi-depin-worker-1:/home/worker/auth --platform linux/amd64 ghcr.io/tashigg/tashi-depin-worker:0 run /home/worker/auth
+```
+
+
