@@ -107,4 +107,6 @@ docker run --rm -it --volume tashi-depin-worker-0:/home/worker/auth --platform l
 docker run --restart always -p 9011:9000 -p 39066:39065 -d --volume tashi-depin-worker-1:/home/worker/auth --platform linux/amd64 ghcr.io/tashigg/tashi-depin-worker:0 run /home/worker/auth
 ```
 
+## Editor Online [Nodepad Open](https://onlinenotepad.org/notepad)
+
 
